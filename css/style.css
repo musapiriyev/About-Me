@@ -1,0 +1,170 @@
+body{
+    background-color: rgb(226, 219, 213);   
+}
+.screen{
+    width: 1825px;
+height: 850px;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    height:100px ;
+    background-color:white;
+}
+.logolinks{
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+}
+.logo{
+    display: inline-block;
+    background-color: rgb(36, 151, 113);
+    color: aliceblue;
+    width: 15%;
+   padding-top:30px;
+    height:70px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.links{
+    padding-top: 30px;
+    width: 25%;
+    height: 70px;
+    float: right;
+}
+.links a{
+    text-decoration: none;
+    color: #999;
+    font-size: 30px;
+}
+.main{
+    position: relative;
+    top: 140px;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+}
+.main .about
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    overflow: auto;
+    width: 60%;
+    height: 500px;
+    background-color: white;
+}
+.main .about img{
+    object-fit: cover;
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin-right: 20px;
+}
+.main .connect
+{
+    text-align: center;
+    float: right;
+    width: 30%;
+    height: 350px;
+    background-color: white;
+}
+.main .about h1
+{
+    color: #4aaaa5;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main .about p
+{
+    color: #777;
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    text-indent: 15px; 
+
+}
+.main .connect h2{
+    color: #4aaaa5;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main .connect div{
+    width: 50%;
+    height: 40px;
+    margin:  0 auto;
+}
+.main .connect div img{
+    height: 70px;
+}
+footer{
+    width: 100%;
+    height: 65px;
+    background-color: grey;
+    border-top:5px solid green;
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    padding-top: 35px;
+}
+/**************** Portfolio css *******************/
+.boxes{
+    width: 95%;
+    height: auto;
+    overflow: auto;
+    margin: 0 auto;
+}
+.boximg{
+    width: 40%;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 40px;
+    float: left;
+    position: relative;
+}
+.boxes .boximg img{
+    width: 100%;
+    height: 150px;
+}
+.boxes .boximg span{
+    text-align: center;
+    font-size: 28px;
+    position: absolute;
+    top:100px;
+    background-color: #4aaaa5;
+    width: 100%;
+    padding-top: 7px;
+    height: 33px;
+    color: white;
+}
+/***************** contact ********************/
+
+.form{
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 30px;
+    height: 30px;
+}
+textarea{
+    margin-top: 10px;
+    width: 100%;
+}
+input[type=submit]{
+    width: 200px;
+    height: 50px;
+    background-color: #4aaaa5;
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+}
